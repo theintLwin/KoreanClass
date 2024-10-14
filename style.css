@@ -1,0 +1,149 @@
+.nav-logo{
+padding:10px;
+}
+.nav-logo h3{
+	border-bottom:2px solid teal;
+	float:left;
+	position: relative;
+	left:50%;
+	transform: translate(-50%);
+	padding:6px 0;
+	font-size:20px;
+
+}
+.active{
+	color:red;
+}
+.nav-list a:hover{
+	text-decoration: none;
+	color:red;
+
+}
+.nav-list ul{
+	text-align:center;
+}
+.nav-list ul li{
+	padding:0 40px;
+	font-size:15px;
+}
+.main-tilte{
+text-align:center;
+
+}
+.main{
+	background-image: url("images/butterfly.jpg");
+	background-repeat: no-repeat;
+	padding:130px 0;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align:center;
+}
+.main-title{
+	color:teal;
+}
+.sub-title{
+	color:teal;
+	letter-spacing:2px;
+	margin:15px 0;
+}
+.btn-main{
+	border:2px solid white;
+	padding:10px 30px;
+	border-radius: 20px;
+	background:red;
+	color:white;
+	transition:1000ms;
+
+}
+.btn-main:hover{
+	background:transparent;
+	color:red;
+}
+.btn-mainVd{
+	border:2px solid black;
+	padding:10px 30px;
+	border-radius: 20px;
+	background:red;
+	color:white;
+	transition:1000ms;
+
+}
+.btn-mainVd:hover{
+	background:transparent;
+	color:red;
+}
+.form_name,.form_email,.form_message{
+	width:350px;
+	padding:10px 20px;
+	display: block;
+	border:1px solid black;
+	border-radius: 7px;
+	margin:20px 0;
+	background:transparent;
+	outline: none;
+}
+.form_name:focus ,.form_email:focus,.form_message:focus{
+	border:3px solid blue;
+
+}
+.icon{
+	display:block;
+	font-size: 120%;
+	padding:10px 40px;
+	margin:10px;
+}
+
+.form-btn{
+	padding:10px 30px;
+	background:transparent;
+	border:2px solid black;
+	border-radius: 30px;
+	outline: none;
+	color:black;
+	transition:1000ms;
+}
+.reset-15{
+	margin-left:0px;
+	margin-right:0px;
+}
+.form-btn:hover{
+	background:blue;
+}
+.mt-50{
+	margin-top:50px;
+}
+.mb-50{
+	margin-bottom: 50px;
+}
+.mbt-50{
+	margin:50px 0;
+}
+.reset-h2 h2,.reset-h2 h3{
+	margin-top:0px;
+}
+.content p{
+	text-align:justify;
+	font-size: 120%;
+}
+.footer{
+	background:teal;
+	padding:20px 0;
+	text-align:center;
+	color:white;
+}
+.profile-img{
+	position:relative;
+	top:-90px;
+	left:50%;
+	right:50%;
+	transform: translate(-50%);
+	border-radius: 50%;
+	border:1px solid black;
+
+
+}
+.address p{
+	
+	text-align: center;
+	padding:30px 0;
+}
